@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.aldeamo.training.DemoAngularBootApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.219 sec - in com.aldeamo.training.DemoAngularBootApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.763 sec - in com.aldeamo.training.DemoAngularBootApplicationTests

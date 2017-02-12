@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.aldeamo.it.ContactsApiTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.183 sec <<< FAILURE! - in com.aldeamo.it.ContactsApiTest
-getAllContactsTest(com.aldeamo.it.ContactsApiTest)  Time elapsed: 2.18 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.2 sec <<< FAILURE! - in com.aldeamo.it.ContactsApiTest
+getAllContactsTest(com.aldeamo.it.ContactsApiTest)  Time elapsed: 1.196 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 

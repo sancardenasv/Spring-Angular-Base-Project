@@ -1,5 +1,9 @@
 package com.aldeamo.training.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import io.swagger.annotations.ApiModelProperty;
+
 public class Contact {
 	private int id;
 	private String name;
@@ -62,6 +66,8 @@ public class Contact {
 	/**
 	 * @return the id
 	 */
+	// @JsonProperty(required = true)
+    @ApiModelProperty(notes = "The id of the contact", required = true)
 	public int getId() {
 		return id;
 	}
@@ -74,6 +80,7 @@ public class Contact {
 	/**
 	 * @return the name
 	 */
+	@ApiModelProperty(notes = "The full name of the contact", required = true)
 	public String getName() {
 		return name;
 	}
@@ -86,6 +93,7 @@ public class Contact {
 	/**
 	 * @return the tel
 	 */
+	@ApiModelProperty(notes = "The phone of the contact", required = true)
 	public String getTel() {
 		return tel;
 	}
@@ -98,6 +106,7 @@ public class Contact {
 	/**
 	 * @return the dir
 	 */
+	@ApiModelProperty(notes = "The physical address of the contact", required = false)
 	public String getDir() {
 		return dir;
 	}
@@ -110,6 +119,7 @@ public class Contact {
 	/**
 	 * @return the email
 	 */
+	@ApiModelProperty(notes = "The email of the contact", required = true)
 	public String getEmail() {
 		return email;
 	}
@@ -122,6 +132,7 @@ public class Contact {
 	/**
 	 * @return the rol
 	 */
+	@ApiModelProperty(notes = "The rol of the contact", required = true)
 	public String getRol() {
 		return rol;
 	}
